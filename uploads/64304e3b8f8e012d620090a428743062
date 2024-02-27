@@ -1,0 +1,94 @@
+WHAT IS API
+       An application programming interface (API) is a way for two or more computer programs to communicate with each other.
+CRUD:
+     CRUD is the acronym for CREATE, READ, UPDATE and DELETE. These terms describe the four essential operations for creating and managing persistent data elements, mainly in relational and NoSQL databases.
+
+     Explaining CRUD
+As mentioned, CRUD operations are used in persistent storage applications, meaning these applications will keep their data even after the system powers down. These are different from operations on data stored in volatile storage, like Random Access Memory or cache files.
+
+CRUD is extensively used in database applications. This includes Relational Database Management Systems (RDBMS) like Oracle, MySQL, and PostgreSQL. It also includes NoSQL databases like MongoDB, Apache Cassandra, and AWS DynamoDB.
+
+Operations similar to CRUD can be performed on persistent data structures like files. For example, you can create a Microsoft Word document, update it, read it, and even delete it from the file explorer. However, files are not record-oriented (or document-oriented in the case of MongoDB or Couchbase). The CRUD terminology is specifically related to record-oriented operations instead of flat file operations.
+
+CREATE
+The CREATE operation adds a new record to a database. In RDBMS, a database table row is referred to as a record, while columns are called attributes or fields. The CREATE operation adds one or more new records with distinct field values in a table.
+
+The same principle applies to NoSQL databases. If the NoSQL database is document-oriented, then a new document (for example, a JSON formatted document with its attributes) is added to the collection, which is the equivalent of an RDBMS table. Similarly, in NoSQL databases like DynamoDB, the CREATE operation adds an item (which is equivalent to a record) to a table.
+
+READ
+READ returns records (or documents or items) from a database table (or collection or bucket) based on some search criteria. The READ operation can return all records and some or all fields.
+
+UPDATE
+UPDATE is used to modify existing records in the database. For example, this can be the change of address in a customer database or price change in a product database. Similar to READ, UPDATEs can be applied across all records or only a few, based on criteria.
+
+An UPDATE operation can modify and persist changes to a single field or to multiple fields of the record. If multiple fields are to be updated, the database system ensures they are all updated or not at all. Some big data systems don’t implement UPDATE but allow only a timestamped CREATE operation, adding a new version of the row each time.
+
+DELETE
+DELETE operations allow the user to remove records from the database. A hard delete removes the record altogether, while a soft delete flags the record but leaves it in place. For example, this is important in payroll where employment records need to be maintained even after an employee has left the company.      
+
+       It is a type of software interface, ...
+What is the MEAN stack?
+The MEAN stack is a JavaScript-based framework for developing web applications. MEAN is named after MongoDB, Express, Angular, and Node, the 
+four key technologies that make up the layers of the stack.
+
+MongoDB — document database
+Express(.js) — Node.js web framework
+Angular(.js) — a client-side JavaScript framework
+Node(.js) — the premier JavaScript web server
+There are variations to the MEAN stack such as MERN (replacing Angular.js with React.js) and MEVN (using Vue.js). The MEAN stack is one of the most popular technology concepts for building web applications.
+
+What is Semantic markup?(assacibility)
+Semantic markup refers to marking up a document with information about the actual data structure behind the information, rather than styling the document with exclusively visual information. 
+In the case of HTML, for example, this means using heading tags instead of just changing the size of the font.
+
+let age = +prompt("Enter yuour age");
+let y=+prompt("Enter your edu year");
+let c=("enter your city");
+
+
+//
+if(
+    (age <18 && y >=10)
+    ||
+    (age <26 && y >=16)
+){
+    console.log("you are aligible");
+}
+undefined
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>table</h1>
+    <form onsubmit="tcalcu">
+        <label for="value">Value</label>
+        <input type="number" name="table" required id="tble" placeholder="Enter value">
+        <br>
+        <button type="submit">submit</button>
+    </form>
+    <div id="print"></div>
+
+
+    <script>
+        function tcalcu(){
+        let table=document.getElementById("tble").value;
+        for(let i=1;i=<10;i==){
+        document.write(`${table}x${i}=${table}`);
+        }
+        }
+    </script>
+</body>
+</html>
+lms
+social media
+e commers
+jsx JS Exemn means js and html combine
+cammond react 
+dir 
